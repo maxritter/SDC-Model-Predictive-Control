@@ -20,13 +20,13 @@ The state of the vehicle can be represented as `x-position`, `y-position`, orien
 
 We can control the state of the vehicle over two actuators. `Delta` controls the steering angle, whereas `alpha` is used for acceleration (throttle & brake):
 
-<img src="./images/actuators.png" width="44">
+<img src="./images/actuators.PNG" width="44">
 
 Concerning the actuators, constraints have to be made. First, the vehicle can't move in arbitrary directions. Therefore, the steering angle is limited to +- 25 degrees. Second, the gas and braking should be in defined boundaries. In our case, we use -1 for maximum brake, and +1 for maximum gas.
 
 Our kinematic model can be described by the following equations. They take into account the state & actuator variables, the timestep dt, and the distance between the front of the vehicle and its center of gravity Lf:
 
-<img src="./images/equations.PNG" width="300">
+<img src="./images/equations.png" width="300">
 
 **Timestep Length and Elapsed Duration**
 
