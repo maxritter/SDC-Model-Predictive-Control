@@ -20,7 +20,7 @@ The state of the vehicle can be represented as `x-position`, `y-position`, orien
 
 We can control the state of the vehicle over two actuators. `Delta` controls the steering angle, whereas `alpha` is used for acceleration (throttle & brake):
 
-<img src="./images/actuators.PNG" width="44">
+<img src="./images/actuators.png" width="44">
 
 Concerning the actuators, constraints have to be made. First, the vehicle can't move in arbitrary directions. Therefore, the steering angle is limited to +- 25 degrees. Second, the gas and braking should be in defined boundaries. In our case, we use -1 for maximum brake, and +1 for maximum gas.
 
