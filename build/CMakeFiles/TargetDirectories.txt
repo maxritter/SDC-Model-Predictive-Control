@@ -1,0 +1,3 @@
+/mnt/c/Users/Max/Dropbox/SDC/Term2/Projects/5. Model Predictive Control/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Max/Dropbox/SDC/Term2/Projects/5. Model Predictive Control/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Max/Dropbox/SDC/Term2/Projects/5. Model Predictive Control/build/CMakeFiles/mpc.dir
